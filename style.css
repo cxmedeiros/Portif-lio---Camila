@@ -335,29 +335,31 @@ a:hover {
     color: black;
 }
 
-.Aboutme-title {
-    width: 200px;
-    height: 200px;
+.Aboutme-container {
+    margin-top: 30px;
+}
+
+#mila {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 100%;
+}
+
+.Aboutme-title {
     color: black;
     font-size: 40px;
     letter-spacing: 2px;
-    margin: 0;
 }
 
 .Aboutme-text {
-    display: flex;
-    height: 100px;
-    width: 70%;
-    justify-content: space-evenly;
-    align-items: center;
     color: palevioletred;
     font-size: 22px;
     letter-spacing: 1px;
-    margin: 0rem 15rem 3rem 15rem;
+    max-width: 1040px;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 0 20px;
 }
 
 @media (max-width: 1200px){
